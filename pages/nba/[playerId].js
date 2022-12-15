@@ -11,7 +11,7 @@ function NBAPlayerSpotlight() {
   //   method: "GET",
   //   headers: {
   //     "x-rapidapi-host": "api-nba-v1.p.rapidapi.com",
-  //     "x-rapidapi-key": "3cbcd84b6emshf3b9e22abe26663p19a2b5jsnc3aad965199c",
+  //     "x-rapidapi-key": "",
   //   },
   // })
   //   .then((response) => response.json())

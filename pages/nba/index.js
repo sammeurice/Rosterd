@@ -2,6 +2,7 @@
 import { Fragment, useState } from "react";
 import Link from "next/link";
 import styles from "./nbaPageStyles.module.css";
+import { NBA_API_KEY } from "../../constants";
 
 function NBAPlayers() {
   const [playerSearch, setPlayerSearch] = useState("");
@@ -12,7 +13,7 @@ function NBAPlayers() {
       method: "GET",
       headers: {
         "x-rapidapi-host": "api-nba-v1.p.rapidapi.com",
-        "x-rapidapi-key": "3cbcd84b6emshf3b9e22abe26663p19a2b5jsnc3aad965199c",
+        "x-rapidapi-key": NBA_API_KEY,
       },
     })
       .then((response) => response.json())
