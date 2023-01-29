@@ -6,6 +6,75 @@
   width: 100%;
 }
 
+.headerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.backButton {
+  margin-left: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+  transition: color 300ms ease;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  color: gray;
+}
+
 .title {
   text-align: center;
+}
+
+.mainContentContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.inputContainer {
+  text-align: left;
+  display: flex;
+  height: 80px;
+}
+
+.inputBox {
+  padding: 12px 20px;
+  margin: 8px 16px 8px 16px;
+  border-radius: 32px;
+  border-width: 0;
+  width: 300px;
+  font-size: 20px;
+  outline: none;
+}
+
+.inputButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.inputButton:hover {
+  background-color: #45a049;
+}
+
+.animationContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
