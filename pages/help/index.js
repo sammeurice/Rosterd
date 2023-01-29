@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import { IoIosArrowDown } from "react-icons/Io";
+import { IoIosArrowDown } from "react-icons/io";
 import { NavBar } from "../../components/NavBar";
 import { HeaderRow } from "../../components/HeaderRow";
 import styles from "./helpStyles.module.css";
